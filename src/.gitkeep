@@ -1,0 +1,8 @@
+widget build(BuildContext){
+  return Scaffold(
+    appBar: AppBar(
+        title: Text(widget.title),
+    ),
+    body: Text("初めてのテキスト")
+  );
+}
