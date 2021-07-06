@@ -113,3 +113,11 @@ class _MyHomePageState extends State<MyHomePage> {
     );
   }
 }
+Widget build(BuildContext){
+  return Scaffold(
+    appBar: AppBar(
+      title: Text(widget.title),
+    ),
+    body: Text("初めてのテキスト")
+  );
+}
